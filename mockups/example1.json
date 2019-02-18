@@ -1,0 +1,73 @@
+{
+    "sensors": [
+      {
+        "id": "F4:A5:74:89:16:57",
+        "mac": "F4:A5:74:89:16:57",
+        "data": {
+          "humidity": 46.5,
+          "temperature": 24.36,
+          "pressure": 998.55,
+          "acceleration": 1038.0433516958722,
+          "acceleration_x": 78,
+          "acceleration_y": -15,
+          "acceleration_z": 1035,
+          "battery": 2893
+        },
+        "timestamp": "2017-07-01T18:36:56.547306"
+      },
+      {
+        "id": "CA:F7:44:DE:EB:E1",
+        "mac": "CA:F7:44:DE:EB:E1",
+        "data": {
+          "temperature": 24.0,
+          "humidity": 38.0,
+          "pressure": 998.0,
+          "identifier": null
+        },
+        "timestamp": "2017-07-01T18:36:57.229115"
+      }
+    ],
+    "sensordatas": [
+      {
+        "id": 0,
+        "mac": "F4:A5:74:89:16:57",
+        "data": {
+          "humidity": 46.5,
+          "temperature": 24.35,
+          "pressure": 998.48,
+          "acceleration": 1030.2921915650918,
+          "acceleration_x": 82,
+          "acceleration_y": -7,
+          "acceleration_z": 1027,
+          "battery": 2887
+        },
+        "timestamp": "2017-07-01T18:36:56.044941"
+      },
+      {
+        "id": 1,
+        "mac": "F4:A5:74:89:16:57",
+        "data": {
+          "humidity": 46.5,
+          "temperature": 24.36,
+          "pressure": 998.55,
+          "acceleration": 1038.0433516958722,
+          "acceleration_x": 78,
+          "acceleration_y": -15,
+          "acceleration_z": 1035,
+          "battery": 2893
+        },
+        "timestamp": "2017-07-01T18:36:56.547306"
+      },
+      {
+        "id": 2,
+        "mac": "CA:F7:44:DE:EB:E1",
+        "data": {
+          "temperature": 24.0,
+          "humidity": 38.0,
+          "pressure": 998.0,
+          "identifier": null
+        },
+        "timestamp": "2017-07-01T18:36:57.229115"
+      }
+    ]
+  }
