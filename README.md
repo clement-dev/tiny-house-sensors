@@ -1,4 +1,4 @@
-# Lowtech Lab - Interface pour les capteurs de la Tiny House
+# Lowtech Lab - Interface pour les capteurs de la Tiny House 🏕
 
 ## Démarrer le projet 
 
