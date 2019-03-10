@@ -1,0 +1,10 @@
+{
+    "name": "lowtech-tinyhouse",
+    "script": "red.js",
+    "cwd": "/usr/src/app/node_modules/node-red/",
+    "instances": "1",
+    "exec_mode": "cluster",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }

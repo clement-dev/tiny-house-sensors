@@ -1,14 +1,16 @@
 {
-  "name": "Lowtech-tinyhouse",
+  "name": "lowtech-tinyhouse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node node_modules/node-red/red.js --userDir ./data",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lowtechlab",
   "license": "ISC",
   "devDependencies": {
-    "node-red": "^0.19.5"
+    "node-red": "^0.19.5",
+    "pm2": "^3.3.1"
   }
 }
