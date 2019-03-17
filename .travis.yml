@@ -16,8 +16,6 @@ before_install:
 script:
   - docker build -t cisaia/tinysensors:latest . 
   - docker tag cisaia/tinysensors registry.heroku.com/$HEROKU_APP_NAME/web
-  - docker run -it cisaia/tinysensors:latest
-  - docker ps -a
 
 deploy:
   provider: script
