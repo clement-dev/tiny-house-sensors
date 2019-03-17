@@ -1,3 +1,6 @@
+[![Website perso.crans.org](https://img.shields.io/website-up-down-green-red/http/perso.crans.org.svg)](https://tinyhousesensors.herokuapp.com/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
 # Lowtech Lab - Interface pour les capteurs de la Tiny House 🏕
 
 ## Démarrer le projet 🚀
