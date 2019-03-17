@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - "9"
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  # install heroku CLI
+  - wget -qO- https://toolbelt.heroku.com/install.sh | sh
+   # login to docker registries (dockerhub + heroku)
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$HEROKU_PASSWORD" | docker login -u "$HEROKU_USERNAME" --password-stdin registry.heroku.com
+
+script:
+  - docker build -t cisaia/tinysensors:latest 
+  - docker tag cisaia/tinysensors registry.heroku.com/$HEROKU_APP_NAME/web
+
+deploy:
+  provider: script
+  script: 
+    docker push cisaia/tinysensors;
+    docker push registry.heroku.com/$HEROKU_APP_NAME/web;
+    heroku container:release web --app $HEROKU_APP_NAME
+  on:
+    branch: master
+
