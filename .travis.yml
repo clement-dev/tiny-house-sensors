@@ -7,6 +7,9 @@ services:
   - docker
 
 before_install:
+  - echo 'yoplait'
+  - ls
+  - pwd
   # install heroku CLI
   - wget -qO- https://toolbelt.heroku.com/install.sh | sh
    # login to docker registries (dockerhub + heroku)
